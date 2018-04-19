@@ -1,0 +1,11 @@
+set confirm off
+set pagination off
+set logging file btdump.log
+set logging on
+set logging redirect on
+file /usr/games/crossfire/bin/crossfire
+bt full
+f 3
+i r
+x/x $eip
+quit
