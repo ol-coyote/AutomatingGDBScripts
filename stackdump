@@ -1,0 +1,9 @@
+set confirm off
+set pagination off
+set logging file stackdump.log
+set logging on
+set logging redirect on
+file /usr/games/crossfire/bin/crossfire
+f 3
+x/1148x $sp
+quit
